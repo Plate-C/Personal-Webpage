@@ -1,0 +1,47 @@
+html,body {
+    overflow-x: hidden;
+    padding-bottom: 15px;
+}
+.padded-component {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.container-custom {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+@media (max-width: 576px) {
+    .padded-component {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .btn-block {
+        width: 100%;
+    }
+    .container-custom {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+@media (max-height: 1000000px) {
+    .header-panel {
+        max-height: 150px;
+        overflow-y: auto;
+    }
+
+    .card {
+        max-height: 300px;
+        overflow-y: auto;
+    }
+
+    .carousel-inner {
+        max-height: 400px;
+        overflow-y: hidden;
+    }
+}
+}
+
+

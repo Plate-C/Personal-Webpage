@@ -1,0 +1,553 @@
+body {
+    width:100%;
+    overflow-x: hidden;
+}
+.rectangle1{
+    background: dodgerblue;
+    height: 200px;
+}
+.center{
+    color: yellow;
+    font-family: "Arial Black",serif;
+    font-size: 400%;
+    text-align: center;
+}
+.center2 {
+    color: white;
+    font-family:"arial",serif;
+    text-align: center;
+    font-size: 170%;
+}
+.center2 span {
+    color: yellow;
+}
+.center3 {
+    color: white;
+    font-family:"arial",serif;
+    text-align: center;
+    font-size: 170%;
+}
+.center3 span {
+    color: yellow;
+}
+.rectangle2 {
+    background: aquamarine;
+    height: 320px;
+}
+.left {
+    font-family: "arial",serif;
+    font-size: 150%;
+    position: absolute;
+    top: 210px;
+}
+.school {
+    font-family: "arial",serif;
+    opacity: 70%;
+    font-size: 125%;
+    position: absolute;
+    left: 10px;
+    top: 250px;
+}
+.school2 {
+    font-family: "arial",serif;
+    font-size: 95%;
+    position: absolute;
+    left: 25px;
+    top: 273px;
+}
+.school3 {
+    font-family: "arial",serif;
+    font-size: 95%;
+    position: absolute;
+    left: 25px;
+    top: 290px;
+}
+.school4 {
+    font-family: "arial",serif;
+    font-size: 95%;
+    position: absolute;
+    left: 25px;
+    top: 308px;
+}
+.math {
+    font-family: "arial",serif;
+    opacity: 70%;
+    font-size: 125%;
+    position: absolute;
+    left: 10px;
+    top: 350px;
+}
+.math2 {
+    font-family: "arial",serif;
+    font-size: 95%;
+    position: absolute;
+    left: 25px;
+    top: 373px;
+}
+.robotics {
+    font-family: "arial",serif;
+    opacity: 70%;
+    font-size: 125%;
+    position: absolute;
+    left: 400px;
+    top: 250px;
+}
+.robotics2 {
+    font-family: "arial",serif;
+    font-size: 95%;
+    position: absolute;
+    left: 417px;
+    top: 273px;
+}
+.robotics3 {
+    font-family: "arial",serif;
+    font-size: 95%;
+    position: absolute;
+    left: 417px;
+    top: 328px;
+}
+.business {
+    font-family: "arial",serif;
+    opacity: 70%;
+    font-size: 125%;
+    position: absolute;
+    left: 800px;
+    top: 250px;
+}
+.business2 {
+    font-family: "arial",serif;
+    font-size: 95%;
+    position: absolute;
+    left: 824px;
+    top: 273px;
+}
+.business3 {
+    font-family: "arial",serif;
+    font-size: 95%;
+    position: absolute;
+    left: 824px;
+    top: 310px;
+}
+.rectangle3 {
+    background: bisque;
+    height: 320px;
+    display:flex;
+}
+.left2 {
+    font-family: "arial",serif;
+    font-size: 150%;
+    position: absolute;
+    top: 530px;
+}
+img {
+    max-width: 30%;
+    max-height:30%;
+}
+.image1 {
+    width:600px;
+    height:auto;
+    position:absolute;
+    left:45px;
+    top:570px;
+}
+.ambassador {
+    font-family: "arial",serif;
+    opacity: 70%;
+    font-size: 125%;
+    position: absolute;
+    top: 550px;
+    left: 260px;
+}
+.ambassador2 {
+    font-family: "arial",serif;
+    font-size: 95%;
+    position: absolute;
+    top: 579px;
+    left: 284px;
+}
+.ambassador3 {
+    font-family: "arial",serif;
+    font-size: 95%;
+    position: absolute;
+    top: 615px;
+    left: 285px;
+}
+.ambassador4 {
+    font-family: "arial",serif;
+    font-size: 95%;
+    position: absolute;
+    top: 689px;
+    left: 285px;
+}
+.image2 {
+    width:600px;
+    height:auto;
+    position:absolute;
+    left:700px;
+    top:570px;
+}
+.teacher {
+    font-family: "arial",serif;
+    opacity: 70%;
+    font-size: 125%;
+    position: absolute;
+    left: 915px;
+    top: 555px;
+}
+.teacher2 {
+    font-family: "arial",serif;
+    font-size: 95%;
+    position: absolute;
+    top: 584px;
+    left: 960px;
+}
+.teacher3 {
+    font-family: "arial",serif;
+    font-size: 95%;
+    position: absolute;
+    top: 620px;
+    left: 960px;
+}
+.teacher4 {
+    font-family: "arial",serif;
+    font-size: 95%;
+    position: absolute;
+    top: 694px;
+    left: 960px;
+}
+.rectangle4 {
+    background: dodgerblue;
+    height: 180px;
+}
+.contact {
+    color: white;
+    font-family:"arial",serif;
+    font-size: 170%;
+    position:absolute;
+    top: 870px;
+    left:360px;
+}
+.contact span {
+    color: yellow;
+}
+.thanks {
+    color: yellow;
+    font-family: "arial", serif;
+    font-size: 170%;
+    position:absolute;
+    top:930px;
+    left:560px;
+}
+.image3 {
+    width:700px;
+    height:auto;
+    position:absolute;
+    top:870px;
+}
+.image4 {
+    width:700px;
+    height:auto;
+    position:absolute;
+    left:1100px;
+    top:870px;
+}
+.image5 {
+    width:350px;
+    height:auto;
+    position:absolute;
+    left:500px;
+    top:380px;
+}
+.image6 {
+    width:350px;
+    height:auto;
+    position:absolute;
+    left:960px;
+    top:380px;
+}
+.image7 {
+    width:350px;
+    height:auto;
+    position:absolute;
+    left:140px;
+    top:450px;
+}
+@media only screen and (max-width:1000px) {
+    .rectangle1{
+        background: dodgerblue;
+        height: 350px;
+        width: 1657px;
+    }
+    .center{
+        color: yellow;
+        font-family: "Arial Black",serif;
+        font-size: 700%;
+        text-align: center;
+    }
+    .center2 {
+        color: white;
+        font-family:"arial",serif;
+        text-align: center;
+        font-size: 350%;
+    }
+    .center3 {
+        color: white;
+        font-family:"arial",serif;
+        text-align: center;
+        font-size: 350%;
+    }
+    .rectangle2 {
+        background: aquamarine;
+        height: 1000px;
+        width: 1657px;
+    }
+    .left {
+        font-family: "arial",serif;
+        font-size: 270%;
+        position: absolute;
+        top: 350px;
+    }
+    .school {
+        font-family: "arial",serif;
+        opacity: 70%;
+        font-size: 250%;
+        position: absolute;
+        left: 10px;
+        top: 400px;
+    }
+    .school2 {
+        font-family: "arial",serif;
+        font-size: 200%;
+        position: absolute;
+        left: 55px;
+        top: 450px;
+    }
+    .school3 {
+        font-family: "arial",serif;
+        font-size: 200%;
+        position: absolute;
+        left: 55px;
+        top: 500px;
+    }
+    .school4 {
+        font-family: "arial",serif;
+        font-size: 200%;
+        position: absolute;
+        left: 55px;
+        top: 550px;
+    }
+    .math {
+        font-family: "arial",serif;
+        opacity: 70%;
+        font-size: 250%;
+        position: absolute;
+        left: 10px;
+        top: 620px;
+    }
+    .math2 {
+        font-family: "arial",serif;
+        font-size: 200%;
+        position: absolute;
+        left: 55px;
+        top: 670px;
+    }
+    .robotics {
+        font-family: "arial",serif;
+        opacity: 70%;
+        font-size: 250%;
+        position: absolute;
+        left: 720px;
+        top: 400px;
+    }
+    .robotics2 {
+        font-family: "arial",serif;
+        font-size: 200%;
+        position: absolute;
+        width:max-content;
+        left: 765px;
+        top: 450px;
+    }
+    .robotics3 {
+        font-family: "arial",serif;
+        font-size: 200%;
+        position: absolute;
+        width:max-content;
+        left: 765px;
+        top: 580px;
+    }
+    .business {
+        font-family: "arial",serif;
+        opacity: 70%;
+        font-size: 250%;
+        position: absolute;
+        width:max-content;
+        left: 720px;
+        top: 800px;
+    }
+    .business2 {
+        font-family: "arial",serif;
+        font-size: 200%;
+        position: absolute;
+        width:max-content;
+        left: 765px;
+        top: 850px;
+    }
+    .business3 {
+        font-family: "arial",serif;
+        font-size: 200%;
+        position: absolute;
+        width:max-content;
+        left: 765px;
+        top: 940px;
+    }
+    .image5 {
+        width:850px;
+        height:auto;
+        position:absolute;
+        left:1400px;
+        top:440px;
+    }
+    .image6 {
+        width:850px;
+        height:auto;
+        position:absolute;
+        left:1150px;
+        top:1060px;
+    }
+    .rectangle3 {
+        background: bisque;
+        width:1657px;
+        height: 900px;
+        display:flex;
+    }
+    .left2 {
+        font-family: "arial",serif;
+        font-size: 270%;
+        position: absolute;
+        width:max-content;
+        top: 1355px;
+    }
+    .image1 {
+        width:1000px;
+        height:auto;
+        position:absolute;
+        left:45px;
+        top:1500px;
+    }
+    .ambassador {
+        font-family: "arial",serif;
+        opacity: 70%;
+        font-size: 250%;
+        position: absolute;
+        top: 1400px;
+        left: 390px;
+    }
+    .ambassador2 {
+        font-family: "arial",serif;
+        font-size: 200%;
+        position: absolute;
+        width: max-content;
+        top: 1450px;
+        left: 450px;
+    }
+    .ambassador3 {
+        font-family: "arial",serif;
+        font-size: 200%;
+        position: absolute;
+        width:max-content;
+        top: 1535px;
+        left: 450px;
+    }
+    .ambassador4 {
+        font-family: "arial",serif;
+        font-size: 200%;
+        position: absolute;
+        width:max-content;
+        top: 1700px;
+        left: 450px;
+    }
+    .image2 {
+        width:2000px;
+        height:auto;
+        position:absolute;
+        left:75px;
+        top:2000px;
+    }
+    .teacher {
+        font-family: "arial",serif;
+        opacity: 70%;
+        font-size: 250%;
+        position: absolute;
+        left: 390px;
+        top: 1870px;
+    }
+    .teacher2 {
+        font-family: "arial",serif;
+        font-size: 200%;
+        position: absolute;
+        width:max-content;
+        top: 1920px;
+        left: 450px;
+    }
+    .teacher3 {
+        font-family: "arial",serif;
+        font-size: 200%;
+        position: absolute;
+        width:1100px;
+        top: 1970px;
+        left: 450px;
+    }
+    .teacher4 {
+        font-family: "arial",serif;
+        font-size: 200%;
+        position: absolute;
+        width:1000px;
+        top: 2100px;
+        left: 450px;
+    }
+    .rectangle4 {
+        background: dodgerblue;
+        width:1657px;
+        height: 400px;
+        display:flex;
+    }
+    .contact {
+        color: white;
+        font-family:"arial",serif;
+        font-size: 300%;
+        position:absolute;
+        width:max-content;
+        top: 2370px;
+        left:279px;
+    }
+    .thanks {
+        color: yellow;
+        font-family: "arial", serif;
+        font-size: 300%;
+        position:absolute;
+        width:max-content;
+        top:2500px;
+        left:630px;
+    }
+    .image3 {
+        width:1500px;
+        height:auto;
+        position:absolute;
+        top:2400px;
+    }
+    .image4 {
+        width:1500px;
+        height:auto;
+        position:absolute;
+        left:1400px;
+        top:2400px;
+    }
+    .image7 {
+        width:2000px;
+        height:auto;
+        position:absolute;
+        left:30px;
+        top:850px;
+    }
+
+}
