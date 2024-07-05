@@ -19,10 +19,13 @@
 
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light custom-navbar fixed-top">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand" href="#">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/2560px-Bootstrap_logo.svg.png" alt="Logo" width="30" height="30" class="d-inline-block align-top me-2">
+            Bootstrap
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -31,10 +34,10 @@
                     <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
+                    <a class="nav-link" href="#">Components</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
+                    <a class="nav-link" href="#">Download</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link disabled" href="#">Disabled</a>
@@ -43,50 +46,54 @@
         </div>
     </div>
 </nav>
+
 <div class="container mt-4 container-custom">
-    <div class="header-panel">
+    <div class="custom-header">
         <header>
             <h1>Welcome to Our Website</h1>
-            <p>This website will dive deep into the many components of Bootstrap 5. Some of these components will be cards, carousels, buttons, and list groups.</p>
         </header>
+        <subtitle>
+            <p>This website will dive deep into the many components of Bootstrap 5. Some of these components will be cards, carousels, buttons, and list groups.</p>
+        </subtitle>
     </div>
 </div>
 <div class="container mt-4 container-custom">
     <div class="row">
         <div class="col-md-4 col-sm-12 mb-4">
-            <div class="card padded-component">
+            <div class="card custom-card padded-component">
                 <div class="card-body">
                     <h5 class="card-title">Card Number 1</h5>
                     <p class="card-text">Using Bootstrap 5's grid system, placing card number 1 on the left was possible.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
             </div>
         </div>
         <div class="col-md-4 col-sm-12 mb-4">
-            <div class="card padded-component">
+            <div class="card custom-card padded-component">
                 <div class="card-body">
                     <h5 class="card-title">Card Number 2</h5>
                     <p class="card-text">Using Bootstrap 5's grid system, placing card number 2 in the middle was possible.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
             </div>
         </div>
         <div class="col-md-4 col-sm-12 mb-4">
-            <div class="card padded-component">
+            <div class="card custom-card padded-component">
                 <div class="card-body">
                     <h5 class="card-title">Card Number 3</h5>
                     <p class="card-text">Using Bootstrap 5's grid system, placing card number 3 on the right was possible.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
             </div>
         </div>
     </div>
 </div>
-
 <div class="container mt-4 container-custom">
-    <button type="button" class="btn btn-primary btn-lg btn-block mt-4">Block level button</button>
-    <button type="button" class="btn btn-secondary btn-lg btn-block mt-4">Block level button</button>
+    <button type="button" class="btn btn-primary btn-lg btn-block mt-4">Primary Block Button</button>
+    <button type="button" class="btn btn-secondary btn-lg btn-block mt-4">Secondary Block Button</button>
 </div>
-
 <div class="container mt-4 container-custom">
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img class="d-block w-100"
@@ -101,32 +108,30 @@
                      src="https://www.bhg.com/thmb/FcKK-L23QiqiDVjrjLgfa1uFZU8=/4000x0/filters:no_upscale():strip_icc()/101495134_preview-b192d3b7d4b04188a014754b9ffa6f79.jpg" alt="Third slide">
             </div>
         </div>
-        <a class="carousel-control-prev" data-bs-target="#carouselExampleControls" type="button" data-slide="prev" data-bs-slide="prev">
+        <a class="carousel-control-prev" data-bs-target="#carouselExampleControls" type="button" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="sr-only"></span>
         </a>
-        <a class="carousel-control-next" data-bs-target="#carouselExampleControls" type="button" data-slide="next" data-bs-slide="next">
+        <a class="carousel-control-next" data-bs-target="#carouselExampleControls" type="button" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only"></span>
         </a>
     </div>
 </div>
 <div class="container mt-4 container-custom">
-    <ul class="list-group mt-4">
+    <ul class="list-group custom-list-group">
         <li class="list-group-item">A deck of cards will surely surprise you one way or another.</li>
         <li class="list-group-item">An ordinary table can serve many purposes within a household.</li>
         <li class="list-group-item">What's better than having a massive house that you can lay back in with your family!</li>
     </ul>
 </div>
-
-<div class="container mt-4 container-custom">
-    <div class="alert alert-primary mt-4" role="alert">
-        DON'T FORGET TO CHECK OUT OUR OTHER WEBSITES THAT USE BOOTSTRAP!!!
+<div class="container mt-4">
+    <div class="alert alert-primary custom-alert-primary" role="alert">
+        <strong>Important message:</strong> Don't forget to check out our other websites that use Bootstrap!
+        <a href="#" class="btn btn-primary ms-2">Explore Now</a>
     </div>
 </div>
-
-
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
