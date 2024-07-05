@@ -1,6 +1,7 @@
 html,body {
     overflow-x: hidden;
     padding-bottom: 15px;
+    padding-top: 1.8rem;
 }
 .padded-component {
     padding-left: 5px;
@@ -13,12 +14,193 @@ html,body {
 }
 .btn-block {
     width: 100%;
+    font-size: 1.2em;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    background-color: red;
+    color: mediumvioletred;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease-in-out;
+    font-family: "Arial Rounded MT Bold",sans-serif;
+}
+
+.btn-block:hover {
+    background-color: #5a6268;
+    transform: translateY(-2px);
+}
+
+.btn-block:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.5);
+}
+
+.btn-primary.btn-block {
+    background-color: pink;
+}
+
+.btn-secondary.btn-block {
+    background-color: plum;
+}
+
+.btn-danger.btn-block {
+    background-color: #dc3545;
 }
 .carousel-item img {
     width:100%;
     height: 100%;
     object-fit: cover;
 }
+.navbar-brand {
+    font-family: "Arial Rounded MT Bold",sans-serif;
+}
+.custom-navbar {
+    background: #b19cd9;
+}
+.custom-navbar .navbar-brand,
+.custom-navbar .navbar-nav .nav-link {
+    font-family: "arial", sans-serif;
+    font-size:16px;
+    font-weight:600;
+    color: white;
+}
+.custom-navbar .navbar-nav .nav-link:hover {
+    color: mediumvioletred;
+}
+.custom-navbar .navbar-brand {
+    font-family: "Arial Rounded MT Bold", sans-serif;
+    font-size: 1.8em;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.custom-navbar .navbar-brand img {
+    margin-right: 10px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+/* Navbar tab styles */
+.custom-navbar .navbar-nav .nav-link {
+    font-family: "Arial", sans-serif;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: white;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.custom-navbar .navbar-nav .nav-link:hover {
+    color: mediumvioletred;
+}
+
+/* Active tab style */
+.custom-navbar .navbar-nav .nav-item.active .nav-link {
+    color: mediumvioletred;
+    border-bottom: 2px solid mediumvioletred;
+}
+.custom-header {
+    background-color: #b19cd9;
+    color: white;
+    padding: 40px 20px; 
+    text-align: center; 
+    border-bottom: 2px solid #a79acb; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 10px; 
+}
+
+.custom-header h1 {
+    font-family: "Arial Rounded MT Bold", sans-serif; 
+    font-size: 2.5em; 
+    margin-bottom: 10px; 
+}
+
+.custom-header p {
+    font-family: "Arial", sans-serif; 
+    font-size: 1.2em; 
+    margin-top: 0; 
+    margin-bottom: 0; 
+    color: #f8f9fa; 
+}
+
+.custom-card {
+    background-color: #f8f9fa; 
+    border: 2px solid #b19cd9; 
+    color: #333; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    padding: 20px; 
+    margin: 20px; 
+    border-radius: 10px; 
+    transition: transform 0.3s; 
+}
+.custom-card:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.custom-card .card-title {
+    font-family: "Arial Rounded MT Bold", sans-serif; 
+    color: mediumvioletred; 
+}
+.custom-card .card-text {
+    font-family: "Arial", sans-serif; 
+    color: #666; 
+}
+.custom-card .btn {
+    background-color: #b19cd9; 
+    color: white; 
+    border: none; 
+}
+.custom-card .btn:hover {
+    background-color: mediumvioletred; 
+}
+.custom-list-group {
+    background-color: #f8f9fa; 
+    border: 1px solid #dee2e6; 
+    border-radius: 8px; 
+    margin-bottom: 20px; 
+}
+
+.custom-list-group .list-group-item {
+    background-color: #a79acb; 
+    border: none; 
+    color: floralwhite; 
+    font-family: "Arial", sans-serif; 
+}
+
+.custom-list-group .list-group-item:first-child {
+    border-top-left-radius: 8px; 
+    border-top-right-radius: 8px;
+}
+
+.custom-list-group .list-group-item:last-child {
+    border-bottom-left-radius: 8px; 
+    border-bottom-right-radius: 8px;
+}
+
+.custom-list-group .list-group-item:hover {
+    background-color: lightpink; 
+}
+.custom-alert {
+    padding: 1rem; 
+    margin-bottom: 1rem; 
+    border: 1px solid transparent; 
+    border-radius: .25rem; 
+}
+
+.custom-alert-primary .btn {
+    color: #fff; 
+    background-color: #a79acb; 
+    border-color: white; 
+}
+
+.custom-alert-primary .btn:hover {
+    color: #fff; 
+    background-color: #b19cd9; 
+    border-color: white; 
+}
+
 @media (max-width: 576px) {
     .padded-component {
         padding-left: 5px;
